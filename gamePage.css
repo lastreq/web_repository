@@ -1,0 +1,43 @@
+
+html{
+	overflow:auto;
+	background: #efeff5;
+	height: 100%;
+	margin: 0;
+}
+
+html,body{
+	height:100%;
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	display:block;
+}
+
+.head{
+	display: none;
+}
+
+.wall{
+
+	max-width: 1044px;
+	height: 901px;
+	min-height: 0px;
+	margin: 36px auto 0 auto;
+	background: #b0b0cf;
+}
+
+.gameTable{
+	width: 70%;
+	height: 100%;
+	float: left;
+}
+
+.gameChat{
+	width: 30%;
+	height: 100%;
+	float: right;
+	background-color: #cce6ff;
+}
